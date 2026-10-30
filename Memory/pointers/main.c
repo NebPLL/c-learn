@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
     printf("arr[%d] = %d\n", i, arr[i]);
   }
 
-  printf("%d", sizeof(int) * 4);
+  printf("%d\n", sizeof(long));
 
   free(arr);
   arr = NULL;
